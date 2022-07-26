@@ -1,0 +1,17 @@
+/* .dd{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    transition:  0.5s linear;
+}
+.ww{
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    transition:  0.5s linear;
+} */
+
+.video{
+    left:50%; top:50%; height: 100%;
+    transform: translate(-50%, -50%);  object-fit: cover;
+    width: 100%;
+    z-index: 2; 
+    position: absolute;
+    border-radius: 8px;
+  }

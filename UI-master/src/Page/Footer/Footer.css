@@ -1,0 +1,25 @@
+.last{
+    background: #1E2947;
+    min-height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+}
+@media (max-width: 768px){
+    .last{
+        flex-direction: column;
+        padding: 2rem 0 2rem 0;
+    }
+    .sh{
+        padding: 1rem 0 1rem 0;
+    }
+}
